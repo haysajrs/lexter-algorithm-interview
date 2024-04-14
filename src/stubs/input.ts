@@ -1,10 +1,9 @@
-export interface Input {
-  entryId: string;
-  path: string[];
-}
+import { Input } from "../interfaces/input";
 
 export const inputList: Input[] = [
-  { entryId: "1", path: ["root1"] },
+  { entryId: "1",
+    path: ["root1"]
+  },
   {
     entryId: "10",
     path: ["root2", "path2"],
@@ -25,8 +24,12 @@ export const inputList: Input[] = [
     entryId: "14",
     path: ["root3", "path3"],
   },
-  { entryId: "2", path: ["root2"] },
-  { entryId: "3", path: ["root3"] },
+  { entryId: "2",
+    path: ["root2"] 
+  },
+  { entryId: "3",
+    path: ["root3"]
+  },
   {
     entryId: "6",
     path: ["root1", "path1"],
